@@ -15,14 +15,6 @@ public class Bank {
 
     public static void main(String[] args) {
         greetingApplication();
-        
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter amount to deposit:");
-        int amount = sc.nextInt();
-        
-        Bank bank = new Bank();
-        bank.depositAmount(amount);
-
-        sc.close();
+      
     }
 }
